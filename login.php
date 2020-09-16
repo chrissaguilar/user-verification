@@ -14,22 +14,17 @@
     <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-4 offset-md-4 form-div">
-                <form action="signup.php" method="post">
-                    <h3 class="text-center">Register</h3>
+            <div class="col-md-4 offset-md-4 form-div login">
+                <form action="login.php" method="post">
+                    <h3 class="text-center">Login</h3>
 
-                    <!--                        <div class="alert alert-danger">-->
-                    <!--                            <li>Username required</li>-->
-                    <!--                        </div>-->
+                    <!-- <div class="alert alert-danger">-->
+                    <!--    <li>Username required</li>-->
+                    <!-- </div>-->
 
                     <div class="form-group">
-                        <label for="username">Username:</label>
+                        <label for="username">Username or Email:</label>
                         <input type="text" name="username" class="form-control form-control-lg">
-                    </div>
-
-                    <div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" name="email" class="form-control form-control-lg">
                     </div>
 
                     <div class="form-group">
@@ -38,16 +33,11 @@
                     </div>
 
                     <div class="form-group">
-                        <label for="passwordConf">Password Confirmation:</label>
-                        <input type="password" name="passwordConf" class="form-control form-control-lg">
-                    </div>
-
-                    <div class="form-group">
-                        <button type="submit" name="signup-btn" class="btn btn-primary btn-block btn-lg">
+                        <button type="submit" name="login-btn" class="btn btn-primary btn-block btn-lg">
                             Sign Up
                         </button>
                     </div>
-                    <p class="text-center">Already a member? <a href="login.php">Sign In</a></p>
+                    <p class="text-center">Not yet a member? <a href="signup.php">Sign Up</a></p>
                 </form>
             </div>
         </div>
