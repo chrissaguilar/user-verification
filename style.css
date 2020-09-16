@@ -16,3 +16,7 @@ form p {
 .form-div.login {
     margin-top: 100px;
 }
+
+.logout {
+    color: red;
+}
