@@ -1,3 +1,3 @@
-# user-verification
+# User-Verification
 
-This will be to test login functions
+- This will be to test login functions
